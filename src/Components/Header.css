@@ -1,0 +1,25 @@
+.Header_searchbar{
+    
+    border: 4px solid #444d56;
+    margin: 1%;
+    border-radius:40px;
+    width:80%;
+    /* height:1%; */
+     
+}
+.search_control{
+    border:none;
+    /* border-left: 4px solid #444d56;border-radius:40px; */
+    color: black;
+    font-size: 18px;
+    width:80%;
+    outline:none;
+    padding: 10px;
+}
+.searchbtn{
+    background-color:white;
+    border: none;
+}
+.searchbtn:hover{
+    font-weight: bold;
+}
