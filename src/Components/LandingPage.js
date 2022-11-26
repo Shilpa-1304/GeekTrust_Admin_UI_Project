@@ -58,12 +58,14 @@ function LandingPage() {
     let data=filteredData.filter((item)=>{
       if(!arr.includes(item.id)){
         data1=filteredData.filter((person)=>{
-          return item.id!==person.id
+          return person;
         })
         return data1;
       }
       return data1;
     })
+    // console.log(data1);
+    console.log(data);
     setFilteredData(data)
   }
 
